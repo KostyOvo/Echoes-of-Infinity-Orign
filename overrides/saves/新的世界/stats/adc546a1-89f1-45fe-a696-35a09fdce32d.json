@@ -1,0 +1,45 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:short_grass": 1,
+      "minecraft:torch": 4,
+      "minecraft:chest": 1,
+      "visualworkbench:minecraft/crafting_table": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 4,
+      "minecraft:dark_oak_planks": 12,
+      "minecraft:crafting_table": 1,
+      "minecraft:dark_oak_boat": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 2792,
+      "minecraft:walk_one_cm": 2214,
+      "minecraft:leave_game": 2,
+      "minecraft:play_time": 2792,
+      "minecraft:jump": 34,
+      "minecraft:time_since_death": 2792,
+      "minecraft:sprint_one_cm": 4825,
+      "minecraft:open_chest": 3,
+      "minecraft:fall_one_cm": 1125,
+      "minecraft:total_world_time": 2975,
+      "minecraft:fly_one_cm": 8271,
+      "minecraft:sneak_time": 14
+    },
+    "minecraft:used": {
+      "minecraft:wooden_axe": 2,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:mangrove_log": 3,
+      "minecraft:wheat_seeds": 1,
+      "minecraft:crafting_table": 1,
+      "minecraft:chest": 1,
+      "minecraft:torch": 4,
+      "minecraft:dark_oak_log": 3,
+      "minecraft:dark_oak_planks": 1
+    }
+  },
+  "DataVersion": 4671
+}
