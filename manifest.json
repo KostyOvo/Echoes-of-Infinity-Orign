@@ -1,0 +1,18 @@
+{
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Echoes of Infinity ： Orign",
+  "version": "1.0rc",
+  "author": "北辰or微生雨璨",
+  "overrides": "overrides",
+  "minecraft": {
+    "version": "1.21.11",
+    "modLoaders": [
+      {
+        "id": "fabric-0.18.4",
+        "primary": true
+      }
+    ]
+  },
+  "files": []
+}
