@@ -1,14 +1,4 @@
 {
-  "manifestType": "minecraftModpack",
-  "manifestVersion": 2,
-  "name": "Echoes of Infinity ： Orign",
-  "version": "1.0rc",
-  "author": "北辰or微生雨璨",
-  "description": "魔改测试版",
-  "fileApi": "",
-  "url": "",
-  "forceUpdate": false,
-  "origin": [],
   "addons": [
     {
       "id": "game",
@@ -19,1744 +9,1376 @@
       "version": "0.18.4"
     }
   ],
-  "libraries": [],
+  "author": "Radiant Rain",
+  "description": "更新内容：\n1. 加入美丽的天空资源包\n2. 加入两个光影包\n3. 加入测试存档\n4. 更新了模组\n版本列表：\n1. 1.21.11\n2. 没有",
+  "fileApi": "",
   "files": [
     {
-      "path": "config/appleskin.json5",
-      "hash": "a838f54303b91a5b03b748d31ef15d5b7169284a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/biomesoplenty/biome_toggles.json",
-      "hash": "d77e0a69d856bb7796daac849294533f04f66bb9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/biomesoplenty/gameplay.toml",
-      "hash": "78b41d7cbabd08b4be7260ef34d39af321d28974",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/biomesoplenty/generation.toml",
-      "hash": "01e8ce855e3fa7ef561472e958a5b5558ff18882",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/cardinal-components-api.properties",
-      "hash": "0034d877ec2ea3155efaf54db8549db1e094f003",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/chunky/config.json",
-      "hash": "a8157f2e1e649b891aaccb8ec83d38c84429c82a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/comforts-common.toml",
-      "hash": "9f35d6dfdcbc8773d8a057bffbfac5c8d9ed1b0a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/comforts-server.toml",
-      "hash": "1f79f3e1c23af386fb541b9893f4aa4abec8237f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/continuity.json",
-      "hash": "a4a92925d39f3fea97ba0934563219c98d622c7f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/e4mc/e4mc.toml",
-      "hash": "5a51d61c084b257cc3b294e3a0b5ac57c36abe9c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/entityculling.json",
-      "hash": "d61877c33f48dfceaf2991fe8987bd7c946e4345",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/fabric/indigo-renderer.properties",
-      "hash": "7d72cdaf8385a5cb3ddd5285fb67f3d1983e040f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/ferritecore.mixin.properties",
-      "hash": "8cec200d99bbe46689cbae8df75d62f4d52f68c1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/forgeconfigapiport.toml",
-      "hash": "945e388c4165af7ad3ffa3bfcd89c1f0ccb14451",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/held-item-info.json",
-      "hash": "bff7500b7facd387c1c42c251535f678a9729882",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
-      "hash": "2bedb4d58a778b937dd9da01c50a46af9887709b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/inventoryprofilesnext/inventoryprofiles.json",
-      "hash": "58b81b870399a90daad1a3249c68c2d5bd18abf9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/inventoryprofilesnext/Los Perrito/villager-trading-config-v2.json",
-      "hash": "e2593acfcb9d84fa2c050b145242d28cc28fb25f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/inventoryprofilesnext/新的世界/villager-trading-config-v2.json",
-      "hash": "e2593acfcb9d84fa2c050b145242d28cc28fb25f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/invmove/unrecognized.json",
-      "hash": "24eaec776a00fe8ab613f9948718b4acab8e93e2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/invmove/vanilla.json",
-      "hash": "7e61582390a414c78c7c8183e006179f0c833b3d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/invmove.json",
-      "hash": "ee06b8de0645f2b1279014cdb25609ed91d23305",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/iris-excluded.json",
-      "hash": "20bd3420b5c911402ac289c154b56ac1dd8f84ba",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/iris.properties",
-      "hash": "67331248f3357ade49ac3e3c607621fab2f7ca71",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jade/hide-blocks.json",
-      "hash": "83c156dc15cc1416fa69be79fbb69fbf12c0598b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jade/hide-entities.json",
-      "hash": "1cce4a181dc701753ae14d8281e7cb49d802bdbe",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jade/hide-mob-effects.json",
-      "hash": "f0a65b39f82c7967d4838acb08cf602a4a5a5bcb",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jade/jade.json",
-      "hash": "59ce00d45fa09acbc94e0a3dcfd87daccb4b534f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jade/profiles/1/jade.json",
-      "hash": "cee061a55ab63b8bc36d1f544f6ea1448d15035f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jade/profiles/2/jade.json",
-      "hash": "06511b21299f15b064663e2eb76ced9f52b3b025",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jade/profiles/3/jade.json",
-      "hash": "1e387106a8b2540d4839c6287d02a2dc70a502c6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jade/server-plugin-overrides.json",
-      "hash": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jade/sort-order.json",
-      "hash": "9f04874b31750cc34e731c7be044ec2b4a08b8d4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jei/blacklist.json",
-      "hash": "a8a4458dce77bc89e82e71719ad2cc14b2739d39",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jei/ingredient-list-mod-sort-order.ini",
-      "hash": "b1e45f834315fe161d69950f88f91f207007c23a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jei/ingredient-list-type-sort-order.ini",
-      "hash": "a2d1f22ee9a3aa27f3d25bb93c4c5d5cd5580e21",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jei/jei-client.ini",
-      "hash": "694ddf4998554c62652b7c5bb9f781e1f5e2c4bc",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jei/jei-colors.ini",
-      "hash": "789780297bc7f7fcc1cc25c367629b895f9cd777",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jei/jei-debug.ini",
-      "hash": "5f5ef349db02187c16341a6ae5a793dac8de83d8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jei/jei-mod-id-format.ini",
-      "hash": "c1e28140ace620052bb916aa0d563f18d336005e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/jei/recipe-category-sort-order.ini",
-      "hash": "b27008f26329505ca08ae6d3177f567efc18fbe1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/lambdynlights.toml",
-      "hash": "f1802304ca2baab1cf4018c25267c203846fe7c2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/lithium.properties",
-      "hash": "38f2993a7d80d0a6a25eb6182bd6898af24a16eb",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/modmenu.json",
-      "hash": "0af3b96649a94688ebf988d63a95087f92427ba3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/openpartiesandclaims-server.toml",
-      "hash": "16403641e37754fb6dfa278f2268fef8e06da980",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/rrls.toml",
-      "hash": "52c69df9dfab577b687ec3617d97fa376293501c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/sereneseasons/fertility.toml",
-      "hash": "f200236ef142693565674c774f4de3bf99a8bb2c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/sereneseasons/seasons.toml",
-      "hash": "fd45ae5a780fc4c38e7a4a4017c69e4c6612f98a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/sodium-fingerprint.json",
-      "hash": "b6b3ccb4298ef429011a8143341b5a5ac0e57eeb",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/sodium-mixins.properties",
-      "hash": "5455463ee999b945c1cff8ae90f2b705e19fb86c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/sodium-options.json",
-      "hash": "f54951d102de5857aab33181bd3bcf3ddfcd6a61",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/splash.properties",
-      "hash": "b8bc792b4ef5b77b8a11e9b7f74737f1d58f5cf6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/terrablender.toml",
-      "hash": "194a663d21fe1df84f7230013c470329088fa710",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/transition.json",
-      "hash": "175ef27df07234a2e37dfbda9766f8c947122e12",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/trender.json",
-      "hash": "1ecd2edb27bfbc69f24e0cd52d3a22f98bdce8f0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/Veinminer/blocks.json",
-      "hash": "97d170e1550eee4afc0af065b78cda302a97674c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/Veinminer/groups.json",
-      "hash": "816476dcea88c4013e280bc7d7fbdd8fa52e95ca",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/Veinminer/settings.json",
-      "hash": "2d98123d529bbc6582df3b2d57c505062a30ff45",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/Veinminer/update/veinminer-client-2.5.2.jar",
-      "hash": "8327ab3e50590652cfe23ce516f74b9b32783526",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/Veinminer/update/veinminer-fabric-2.5.2.jar",
-      "hash": "5bb75e9a736076389ead01a0737e639358a6098f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/visualworkbench-client.toml",
-      "hash": "776a46ddc214f0dc08f615eabccd99a2417de47a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/visualworkbench-server.toml",
-      "hash": "ebbc742bb76c36579818d1c3113e7ac816a4a736",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/waystones-common.toml",
-      "hash": "702e19f5956c3460cf16778cf30fb359c8ce19ee",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaero/lib/client.cfg",
-      "hash": "45cccfb3eb8a7a784bd4c29539e5558445f90bcf",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaero/lib/common.cfg",
-      "hash": "8ae8d6ea0330bec2c0db28b109a12443708f1e7b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaero/lib/profiles/default.cfg",
-      "hash": "253bac0f5181c8db8e488832c46a8d40018650cf",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaero/lib/server_profiles/default.cfg",
-      "hash": "8efdb5a6c4f4f41a36b531d54592321012491fb2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaero/minimap/client.cfg",
-      "hash": "a18a4a75d6f033c35ecde56c14306760715a3a19",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaero/minimap/common.cfg",
-      "hash": "de09f45b29b264432b80d34bb0c336bd552fb9ee",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaero/minimap/default_radar_categories_client.json",
-      "hash": "acf65351d79fa0764141fcd9d895c0006892fd5c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaero/minimap/default_radar_categories_server.json",
-      "hash": "c247867b018103357eb4015059fe209cc562de51",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaero/minimap/profiles/default.cfg",
-      "hash": "055dfaa7758f10ce5c3b40daa3705734c94354ef",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
-      "hash": "2b8d12369471b57bfa6426254b2170bc8e6b3b88",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaero/minimap/server_profiles/default.cfg",
-      "hash": "8efdb5a6c4f4f41a36b531d54592321012491fb2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaero/world-map/client.cfg",
-      "hash": "07a1a39efaab7034dd20757c3841bde1534057b4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaero/world-map/common.cfg",
-      "hash": "c3c64f24c8d33940264147473e4a1c8ba5c219ff",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaero/world-map/profiles/default.cfg",
-      "hash": "740dfcd18520c804aac5545fd97d26c5f940e3e9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaero/world-map/server_profiles/default.cfg",
-      "hash": "8efdb5a6c4f4f41a36b531d54592321012491fb2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaerohud.txt",
-      "hash": "9b2b47ea69e26908152d7ed1c6f90222745dced0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "config/xaeropatreon.txt",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/appleskin-fabric-mc1.21.11-3.0.8.jar",
-      "hash": "441fdbf4e9c34fb61517ceb8e15618950dc4d314",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/balm-fabric-1.21.11-21.11.6.jar",
-      "hash": "af9caac1081738b5c682cd8cd72ee4644cce9607",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/BetterThanMending-2.2.5.jar",
-      "hash": "0fcf01e24e36803872c025951ef4725abc9229dc",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/BiomesOPlenty-fabric-1.21.11-21.11.0.24.jar",
-      "hash": "b57fda920f172be312cfae7f6c71129636d0c8ab",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/Chunky-Fabric-1.4.55.jar",
-      "hash": "19c34a23a5c1b2f6c73117b8eb4524b521e1926b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/cloth-config-21.11.153-fabric.jar",
-      "hash": "4c224606a963bce223db5b27edb4959ecf40d4ee",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/Clumps-fabric-1.21.11-29.0.0.1.jar",
-      "hash": "626fde9e970030cfc8cb64cd0a1abfc03d37ecc2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/comforts-fabric-14.0.0+1.21.11.jar",
-      "hash": "3329e2fd2864cd81c83cfd47acf140e6cc63f78c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/continuity-3.0.1-beta.1+1.21.11.jar",
-      "hash": "51d34c3f2035db0c7fca321b2d94f01b5167707c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/e4mc-fabric-6.0.4.jar",
-      "hash": "78e8860706d5e98f5fe7b557e9ff92fc7232ef4a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/entityculling-fabric-1.9.5-mc1.21.11.jar",
-      "hash": "e2e88c0b2286148e9547eb23d95d2e30e60ad753",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/fabric-api-0.141.2+1.21.11.jar",
-      "hash": "24e3ebda918036771748ce6a965e5948e1fd4def",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar",
-      "hash": "05fe02fe61232c4ddea4059e8103281424d5a2bd",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/ferritecore-8.2.0-fabric.jar",
-      "hash": "c2e2f5e008f5bc9f401dfad8ca94909917006b65",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/ForgeConfigAPIPort-v21.11.1-mc1.21.11-Fabric.jar",
-      "hash": "61aa1b5fafd75afc44552d0213cac39bc938bc2d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/GlitchCore-fabric-1.21.11-21.11.0.2.jar",
-      "hash": "e0afeb38bd47a81e374240ca888ea7842b26edd8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/held-item-info-1.9.0.jar",
-      "hash": "532d18bbe3742e4504eab97d87fc90f056922176",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/InventoryProfilesNext-fabric-1.21.11-2.2.3.jar",
-      "hash": "7835dac2b68a976a339856146f934e76f3e0e4b4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/InvMove-0.9.3+1.21.11-Fabric.jar",
-      "hash": "59242afca6f458ff0cb1882900869f01bba4e1bc",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/iris-fabric-1.10.5+mc1.21.11.jar",
-      "hash": "8f56581bb74c845b702d07488cd9b8adffaae497",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/Jade-1.21.11-Fabric-21.1.1.jar",
-      "hash": "4dba64f66f97cd06cbf43cbe7768ca67a68b528c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/jei-1.21.11-fabric-27.4.0.15.jar",
-      "hash": "2cf743fa1bed56ccfb64fca60d3bd4fe856cb278",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/lambdynamiclights-4.9.1+1.21.11.jar",
-      "hash": "f22487846158f62b3485a5a0723ba048326ac00f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/libIPN-fabric-1.21.11-6.6.2.jar",
-      "hash": "bf7764431b252d2de415cb5c017d9645873b008e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/lithium-fabric-0.21.2+mc1.21.11.jar",
-      "hash": "c1f8f61d4b2fac28ab083a927c6b1338598255ed",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/modmenu-17.0.0-beta.2.jar",
-      "hash": "632c7565ba0fbc033aa4574e1ae6919f277fe03b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/open-parties-and-claims-fabric-1.21.11-0.25.8.jar",
-      "hash": "cc94ab148c02f945dff503673b0fc8c169630e9a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/placeholder-api-2.8.2+1.21.10.jar",
-      "hash": "bbdc920ecff993148cd6e81a208536132245ce40",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/PuzzlesLib-v21.11.6-mc1.21.11-Fabric.jar",
-      "hash": "7c4c680c8de451c2e36e6a062364aac1d48c5d38",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/rrlsFabric-5.1.14+mc.1.21.11.jar",
-      "hash": "dd5b78c86f6415eaef38b5b3f8c9cc056ecf2c6e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/SereneSeasons-fabric-1.21.11-21.11.0.1.jar",
-      "hash": "9b2114e9a5736f438195406010b81b66adebe80a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/silk-all-1.11.5.jar",
-      "hash": "49bf5e5a05dff1c072487e32082031bb02e47018",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/sodium-fabric-0.8.4+mc1.21.11.jar",
-      "hash": "c0a8ac43af978f8d8245bf033670944eb90d7b2e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/supermartijn642corelib-1.1.20-fabric-mc1.21.11.jar",
-      "hash": "aa009320363af43b52322db7bf37c0d0ce503a2c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/TerraBlender-fabric-1.21.11-21.11.0.0.jar",
-      "hash": "e4bd1aee6bc8c56ae77647a06f31a3bd981962a6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/trashcans-1.0.18-fabric-mc1.21.11.jar",
-      "hash": "6a2565937909e40927907a70f36a0001d83bf9e4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/veinminer-fabric-2.5.2.jar",
-      "hash": "5bb75e9a736076389ead01a0737e639358a6098f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/VisualWorkbench-v21.11.1-mc1.21.11-Fabric.jar",
-      "hash": "9e8066fdaa041f8466e7e5eaf3fcf4b0653fa018",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/waystones-fabric-1.21.11-21.11.4.jar",
-      "hash": "81dc8632577ce638e7f373bfef4e195adf04eea9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/xaerominimap-fabric-1.21.11-25.3.5.jar",
-      "hash": "8f50ecc54e802903f1744b49ed5f05f22bd71cb7",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/xaeroworldmap-fabric-1.21.11-1.40.6.jar",
-      "hash": "d23b3ba90cd265ff28f76680e4e2c74467118455",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "options.txt",
-      "hash": "7283eacef73865f84a48dbe86dc977a6d58af7b5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "resourcepacks/Dramatic+Skys+Demo+1.5.zip",
-      "hash": "caa6f2fce6bb02a815c6f51f72902fd205d6bb36",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/advancements/adc546a1-89f1-45fe-a696-35a09fdce32d.json",
-      "hash": "4431da6cb2ae11ffca9b5b3071581e76e9d687e2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/data/chunks.dat",
-      "hash": "8f93908780856d0905bae63f968c9e69a4ede312",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/data/openpartiesandclaims/player-claims/00000000-0000-0000-0000-000000000000.nbt",
-      "hash": "72542d22f0642e0416307381f2a7624211206a9a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/data/openpartiesandclaims/player-claims/00000000-0000-0000-0000-000000000001.nbt",
-      "hash": "9f8dcc8ad98a2f22220fb5da29467ba594e288de",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/data/openpartiesandclaims/player-claims/adc546a1-89f1-45fe-a696-35a09fdce32d.nbt",
-      "hash": "e77b9262b6dac8602abb704e81d0749620e6d04d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/data/openpartiesandclaims/player-configs/adc546a1-89f1-45fe-a696-35a09fdce32d.toml",
-      "hash": "ca8f44bf197543b6537dfd111a20ec8e8b329070",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/data/openpartiesandclaims/server-info.nbt",
-      "hash": "0cb615dddc69bd3f3d5fe4207dd7f247cf5f2c1e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/data/raids.dat",
-      "hash": "a39e134543eb49f00b68889ae571c3ef18e63238",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/data/random_sequences.dat",
-      "hash": "c00ce614553b683adb1245855267a9c5950094e9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/data/scoreboard.dat",
-      "hash": "8f93908780856d0905bae63f968c9e69a4ede312",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/data/seasons.dat",
-      "hash": "656743bf687788562e02144bd4f64a32a4766f64",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/data/stopwatches.dat",
-      "hash": "550eb25efd538d8107cd85cdd726a2721ee041a0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/data/waystones.dat",
-      "hash": "cfbef68df08209bec1c858d9270d380d621e538e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/data/world_border.dat",
-      "hash": "4bc0cf3eff4f6ae2509d2c9b52a30592b3d93a25",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/DIM-1/data/chunks.dat",
-      "hash": "8f93908780856d0905bae63f968c9e69a4ede312",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/DIM-1/data/raids.dat",
-      "hash": "a39e134543eb49f00b68889ae571c3ef18e63238",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/DIM-1/data/seasons.dat",
-      "hash": "6d6f191cc7117bafcd81f11e6b2b44593aafd18c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/DIM-1/data/world_border.dat",
-      "hash": "4bc0cf3eff4f6ae2509d2c9b52a30592b3d93a25",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/DIM1/data/chunks.dat",
-      "hash": "8f93908780856d0905bae63f968c9e69a4ede312",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/DIM1/data/raids_end.dat",
-      "hash": "a39e134543eb49f00b68889ae571c3ef18e63238",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/DIM1/data/seasons.dat",
-      "hash": "6d6f191cc7117bafcd81f11e6b2b44593aafd18c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/DIM1/data/world_border.dat",
-      "hash": "4bc0cf3eff4f6ae2509d2c9b52a30592b3d93a25",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/entities/r.-1.-1.mca",
-      "hash": "79718e1d03fc81c34a4cb8a21df2616683539ec4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/entities/r.-1.0.mca",
-      "hash": "d2a17d7c017d01ac2bf72ecc84c3b0f14ba76e76",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/entities/r.0.-1.mca",
-      "hash": "92b4c2361e952150a555e9749a7deb0c5883dd65",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/entities/r.0.0.mca",
-      "hash": "2d3f67bacfcc428582b5a3189b645e360a917f4b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/icon.png",
-      "hash": "15626c1d912cea5a771396b88cd4810131ebd9e1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/level.dat",
-      "hash": "28619fd9370a8e59e217e1d6581fb8f81bba8653",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/playerdata/adc546a1-89f1-45fe-a696-35a09fdce32d.dat",
-      "hash": "63942d4bc503422405a1c44956d8a44a96322df5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/poi/r.-1.-1.mca",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/poi/r.-1.0.mca",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/poi/r.-1.1.mca",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/poi/r.0.-1.mca",
-      "hash": "dcae7479ff46ee5f3f6c7472f5aaef0d04f22e64",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/poi/r.0.0.mca",
-      "hash": "e20763bdafad3b831077bfcaca312efebdde0a93",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/poi/r.0.1.mca",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/poi/r.1.-1.mca",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/poi/r.1.0.mca",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/poi/r.1.1.mca",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/region/r.-1.-1.mca",
-      "hash": "21c728934e492f4f5f0fa47dbe121e3d18446fe6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/region/r.-1.-2.mca",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/region/r.-1.0.mca",
-      "hash": "a5062e3fc437b816135c6baa392a797a6a2240ca",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/region/r.-1.1.mca",
-      "hash": "eeef019f250abefb68c1a64b919c1f1a8661d001",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/region/r.-2.-1.mca",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/region/r.-2.-2.mca",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/region/r.-2.0.mca",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/region/r.-2.1.mca",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/region/r.0.-1.mca",
-      "hash": "484ac5476d90c2262b26ebe389e2f0a56619fca6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/region/r.0.-2.mca",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/region/r.0.0.mca",
-      "hash": "1e96fa284a723cf0225895adb09a692d07425590",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/region/r.0.1.mca",
-      "hash": "6d401db110e3fe1c474c30c0ac4740dadae1a0ef",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/region/r.1.-1.mca",
-      "hash": "1f810bc1ee566d22124fa0059989d7e45badb67f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/region/r.1.-2.mca",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/region/r.1.0.mca",
-      "hash": "8868916e7b3dd100263850305f800705d6b21274",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/region/r.1.1.mca",
-      "hash": "6a00f4f4f27c8ee7cd0da4114a87e03ebc5456e0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/serverconfig/openpartiesandclaims-default-player-config.toml",
-      "hash": "920eb71ab2d5d5fb7c819bb276cb472a64714185",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/serverconfig/openpartiesandclaims-expired-claim-config.toml",
-      "hash": "920eb71ab2d5d5fb7c819bb276cb472a64714185",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/serverconfig/openpartiesandclaims-server-claim-config.toml",
-      "hash": "920eb71ab2d5d5fb7c819bb276cb472a64714185",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/serverconfig/openpartiesandclaims-wilderness-config.toml",
-      "hash": "f7316861177a94776254b1c3ab4322a0f794ce72",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/serverconfig/readme.txt",
-      "hash": "ce01199f7421593652588b3f62f55bdd84c5dd74",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/session.lock",
-      "hash": "2686137311c038a99622242fdb662b88c221c08d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/stats/adc546a1-89f1-45fe-a696-35a09fdce32d.json",
-      "hash": "69658a9ddb50f5ade04f62d96a63e5e87771d2b4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "saves/新的世界/xaeromap.txt",
-      "hash": "8619d067e7842c979171b79d1734c0fdcdff41e7",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "shaderpacks/效果超好光影（建议搭配天空材质）.zip",
-      "hash": "18efbbf89be7893747872d969017e9c1c5a83b8b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "shaderpacks/效果超好无泛光光影（建议搭配天空材质）.zip",
-      "hash": "b1b86d8f3b544000e9fcbedfe368f2ac444376f7",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/minimap/Los Perrito/config.txt",
-      "hash": "327266183be3365a88078be30356e29f471bb5e2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/minimap/新的世界/config.txt",
-      "hash": "327266183be3365a88078be30356e29f471bb5e2",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/.lock",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/-1_-1.xwmc",
-      "hash": "81d54b14f63e2988053b1f2ab397d81afad92b31",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/-1_-2.xwmc",
-      "hash": "3dba8b7672d883bef2a74191d1cba805d0768943",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/-1_0.xwmc",
-      "hash": "89ced8d98e7837b7250b43227cc48439b1a431e8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/-1_1.xwmc",
-      "hash": "54c7a488f86d3b4bb3173bf825d63ebcf396be33",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/-2_-1.xwmc",
-      "hash": "3b33c28bf2e51a0aed117c1e8ac2e0fb19394141",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/-2_-2.xwmc",
-      "hash": "0e9b205e81b70dbadbb08ae0d48e51de1ea54e80",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/-2_0.xwmc",
-      "hash": "93ca90c828b459f2268bf4d6e4b12f9a76ff2d0d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/-3_-1.xwmc",
-      "hash": "0370338e4d542a146f3e21474ef1ba1bcbdfad7e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/-3_-2.xwmc",
-      "hash": "7359ca750a4d6df80e76bc62de4307c13c019f89",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/-3_0.xwmc",
-      "hash": "020842220dec1b153af2c6aca98c956627016ec6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/0_-1.xwmc",
-      "hash": "ce79e80d99f3f87d51efb82644a0df8ce8038fde",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/0_-2.xwmc",
-      "hash": "5d10456cbe931ae382115c5370cbc90be5a902fe",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/0_0.xwmc",
-      "hash": "eb31d99eb77d4bd876109aed505e7983e0232147",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/0_1.xwmc",
-      "hash": "be73d581bd23ad37c561333ee03597754bd1f555",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/1_-1.xwmc",
-      "hash": "dae82669dfdba95f5d23a25777c907a089b720f4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/1_-2.xwmc",
-      "hash": "4ef33d7028db0e04b24ab3a9f1fca0f7dc5a2350",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache/1/1_0.xwmc",
-      "hash": "85c816e2f9d8f17e529ea6338371e45aa75e5d23",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-1_-1.xwmc.outdated",
-      "hash": "8221a5afb681460d67edfcb32f2c8d6734ea99d1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-1_-2.xwmc.outdated",
-      "hash": "33c4099f362f32f4d63e73f893071f6bef5f82e6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-1_-3.xwmc.outdated",
-      "hash": "347cc270887efb150a2bbb6e61da5473deab9eed",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-1_0.xwmc.outdated",
-      "hash": "6046cc4942dbed19a3a8066713b619beb8f6cd2e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-1_1.xwmc",
-      "hash": "b4a7d2df330a3cd73065d40483dd8313ea99826b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-1_2.xwmc",
-      "hash": "65f20ea1277c4b749056a1f6a7e87c464ce6727e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-2_-1.xwmc.outdated",
-      "hash": "929d5e8c05a21ae0a9c35169c74da565b7f78b25",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-2_-2.xwmc.outdated",
-      "hash": "2284605d9ff7cd20f99bdfaf390f1514ebe22f95",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-2_-3.xwmc.outdated",
-      "hash": "1eb4d9579b05cf721af312ede4e88853d770c58a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-2_0.xwmc.outdated",
-      "hash": "bf3a0d6ece2d9946bb8d3cba1fa1f08c8b68bed1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-2_1.xwmc",
-      "hash": "4bf98849a19c7ee3cea321448d50b4654742d665",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-2_2.xwmc",
-      "hash": "11c44b9aa5275601221976f89e3da626962beeac",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-3_-1.xwmc",
-      "hash": "6e65d1a740e37ced4ec18c3bf4e29957cd567e64",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-3_-2.xwmc.outdated",
-      "hash": "8920cce4cfbd83df134fa7b34b957cda2cdc870b",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-3_-3.xwmc.outdated",
-      "hash": "d93348c0eaed0a747c793b348c3254ca4fa2a39f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-3_0.xwmc",
-      "hash": "e391c78c45948e3ce3bdf69a7ad37c08ee724254",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-3_1.xwmc",
-      "hash": "6a93b1e0d42acf329ebd1b13954bd21f0749b371",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-4_-1.xwmc",
-      "hash": "534f1ef876672c8607e65f2e9edccae608deb4b6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-4_-2.xwmc",
-      "hash": "bf801ffc655b354d6dc45b1f89cff0d3a9552daf",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-4_-3.xwmc",
-      "hash": "80dd9a47579b4c91459095d608fc5ae84b259ebe",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-4_0.xwmc",
-      "hash": "8ee6888640f42e5ee881be4da6e10917c11717cc",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-4_1.xwmc",
-      "hash": "1332be2390068bff40aaadc68df91781e2a011c1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-5_-1.xwmc",
-      "hash": "61ffc154af104547bdfb97785cd0e8959972ecba",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-5_-2.xwmc",
-      "hash": "e422a4be5a813b0bca73b568c78f32bd27facadb",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-5_-3.xwmc",
-      "hash": "28476bd736d5a2e0ed7003b648b873b4f0d3dbe0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-5_0.xwmc",
-      "hash": "a7571c0a7116d750da6bba5de35b8ea143a94a40",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-5_1.xwmc",
-      "hash": "697c584456a8a7368f0a690077a54f7a7d45f3a8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-6_-1.xwmc",
-      "hash": "08128c0383930051c0f6dbbfeba3e33ba86b4c0c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-6_-2.xwmc",
-      "hash": "88e5af8b4d8fa317271d17594753359ae6d806c0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-6_-3.xwmc",
-      "hash": "9819876297a0a90f8fae44f2ca7fcb0aaa914853",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-6_0.xwmc",
-      "hash": "cfe3028d2c119c45ef2a2b249f7d204f92f3bff0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-6_1.xwmc",
-      "hash": "1d8b26f519f592293a35e2fab542c14308acfaee",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/-7_-3.xwmc",
-      "hash": "ed0a721afe0b1da960c4bad6521ca87e7d92682d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/0_-1.xwmc",
-      "hash": "d0fb23f7cf65af6d58b5d89d056f3af7e5999db8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/0_-2.xwmc",
-      "hash": "f6a6c0b469304b7b240b2bcee54ce642b2d81a40",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/0_-3.xwmc",
-      "hash": "b1884b2c52fc343a7c6f0f49260b72595e859a09",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/0_0.xwmc",
-      "hash": "0d35cbdee45c567668cf16835e149795975396aa",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/0_1.xwmc",
-      "hash": "2c2eadd1f0904e26da9d9012ffbd82acfdc37400",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/0_2.xwmc",
-      "hash": "cceb4d49f63a9053709206e5792007bce0e7c79d",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/1_-1.xwmc",
-      "hash": "40270474a03d77f2f869c0bebbd3cd38a6a860b7",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/1_-2.xwmc",
-      "hash": "b3ba12974080ac7faa3ffdbab9c4927cdb3be274",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/1_-3.xwmc",
-      "hash": "74060644bbd1b76bb93129a48b6d0f58c194b5e8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/1_0.xwmc",
-      "hash": "5b3828941e700be97c8e20176fee4ad68c775816",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/1_1.xwmc",
-      "hash": "6699ef682c1b644edfd26d7cb3eb3d2ff62bdcfd",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/1_2.xwmc",
-      "hash": "fe8d57705770a56f7cfab8de5a78e709f148b8ff",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/2_-1.xwmc",
-      "hash": "9bbe6dcafbc417c2b3eb59572eef009167137f14",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/2_-2.xwmc",
-      "hash": "147ca8e67a1370c1a2f41c000d6c75ae16afea0e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/2_-3.xwmc",
-      "hash": "438b982ab5eef2c91b4d390c0d032056d911358f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/2_0.xwmc",
-      "hash": "225f6cedaf5f2edca51d29df495e8237395cc9e5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/2_1.xwmc",
-      "hash": "37ba5496e57cba34d5cf91f07657918e66fde4d8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/3_-1.xwmc",
-      "hash": "0017c2f12a72df40d98062c1280f441081249643",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/3_-2.xwmc",
-      "hash": "c35cc2b9a37f61f0edee8bad4bfffe7bd252c466",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/3_-3.xwmc",
-      "hash": "cb59c47793aaad79cbc428655804783fbc63251e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/3_0.xwmc",
-      "hash": "80e94f6ec2263c8634b46a7bfd405268a4a9603f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/cache_1/3_1.xwmc",
-      "hash": "983b5314bfd32a9bef7efe4770cbbe889cf5dbd5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/caves/3/cache_1/-1_-1.xwmc.outdated",
-      "hash": "767ae7888512e2a6829dc8497425f2b14989be85",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/caves/3/cache_1/-1_-2.xwmc.outdated",
-      "hash": "2e4df90b93469464be6740a5bbf30b6ac326c224",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/caves/3/cache_1/-1_0.xwmc.outdated",
-      "hash": "78444adf989c7becafbbcd0ab11c272e9fb7041c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/caves/3/cache_1/-2_-1.xwmc.outdated",
-      "hash": "8ec63c5612b68eb3272349cc474a5962e37292d0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/caves/3/cache_1/-2_-2.xwmc.outdated",
-      "hash": "81d6bbd25ab8bafdd7edc265a9f1cadc5529597c",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/caves/3/cache_1/-2_0.xwmc.outdated",
-      "hash": "d7629e2a4233a92cb02cf88cb3ed63a5ce0091d1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/caves/4/cache_1/-1_-1.xwmc.outdated",
-      "hash": "5246de7e0f809421078629c7e5b136fd3b09774a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/caves/4/cache_1/-1_-2.xwmc.outdated",
-      "hash": "67c3cacaa11ada84ca55c5343e2f065db3c348f3",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/caves/4/cache_1/-2_-1.xwmc.outdated",
-      "hash": "67d1f770cca7f9ca1992a2e15dfa38462b635f1e",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/caves/4/cache_1/-2_-2.xwmc.outdated",
-      "hash": "37a01d8f64d3b3488ac8fee2e3f60ad9b8929251",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/caves/5/cache_1/-1_-1.xwmc.outdated",
-      "hash": "6f1bbd07c41a58362484bd9bf5499eb60154d752",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/caves/5/cache_1/-1_-2.xwmc.outdated",
-      "hash": "421b09486c73d8eefebaee07389af6d792075b91",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/caves/5/cache_1/-1_0.xwmc.outdated",
-      "hash": "306bac94450feb146f51d1b977b96e19eda7ef04",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/caves/5/cache_1/-2_-1.xwmc.outdated",
-      "hash": "b5f64dd848d767ee3bb5e76cba003c7d5f1096a4",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/caves/5/cache_1/-2_-2.xwmc.outdated",
-      "hash": "4b8757cda5542fdce6b6627cb13661267fe8fb0a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/caves/5/cache_1/-2_0.xwmc",
-      "hash": "da27c5c2385d32ab95971d3c90eeda593f479dd0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/null/dimension_config.txt",
-      "hash": "b02bfab7de96245694ca29c31d9b57df7233ee16",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/Los Perrito/server_config.txt",
       "hash": "035050cf8a686d98452a7f71c422359565ec09f6",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/新的世界/null/.lock",
-      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/新的世界/null/cache_1/-1_-1.xwmc.outdated",
-      "hash": "ffd88d7efb50bc05d0aa57455b727e80262371e5",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/新的世界/null/cache_1/-1_0.xwmc.outdated",
-      "hash": "f7b884fe217da1b0d9d533b34a72ef12bd7c7245",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/新的世界/null/cache_1/0_-1.xwmc.outdated",
-      "hash": "d648ea8a3b917cc99691048900a8d4beac3ce699",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/新的世界/null/cache_1/0_0.xwmc.outdated",
-      "hash": "e2c9aa755b7901e067cd5bc357d26659b2055dc0",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "xaero/world-map/新的世界/null/dimension_config.txt",
-      "hash": "b02bfab7de96245694ca29c31d9b57df7233ee16",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "xaero/world-map/新的世界/server_config.txt",
-      "hash": "035050cf8a686d98452a7f71c422359565ec09f6",
       "force": true,
       "type": "addon"
     },
     {
-      "path": "XaeroWaypoints_BACKUP240807/Los Perrito/config.txt",
+      "hash": "b02bfab7de96245694ca29c31d9b57df7233ee16",
+      "path": "xaero/world-map/新的世界/null/dimension_config.txt",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "c816cda28d0d27ef3203815b9afdfd202c5d47a5",
+      "path": "xaero/world-map/新的世界/null/cache_1/1_0.xwmc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "f4d034ce44bd7b91243b443c12490489e72e6009",
+      "path": "xaero/world-map/新的世界/null/cache_1/1_-1.xwmc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "cb02d12ff60dd98406f1eacbaa2076ea1be2d9ca",
+      "path": "xaero/world-map/新的世界/null/cache_1/0_1.xwmc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "8beb6460efa2a131f7d5233e7192486235f66021",
+      "path": "xaero/world-map/新的世界/null/cache_1/0_0.xwmc.outdated",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "e580b9176683cc2c1ecb282c8e17e969540995f0",
+      "path": "xaero/world-map/新的世界/null/cache_1/-1_1.xwmc",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "9b16ac2c60357f1fdc841a6b1a2f3c4d8bc16085",
+      "path": "xaero/world-map/新的世界/null/cache_1/-1_0.xwmc.outdated",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "867bdf03187d88c37ce013b7885821b772cb711a",
+      "path": "xaero/world-map/新的世界/null/cache_1/-1_-1.xwmc.outdated",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "c89cab3cbfa21537e9b5c82197e1b1a3a350249d",
+      "path": "xaero/world-map/新的世界/null/cache_1/0_-1.xwmc.outdated",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "xaero/world-map/新的世界/null/.lock",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "hash": "327266183be3365a88078be30356e29f471bb5e2",
+      "path": "xaero/minimap/新的世界/config.txt",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "327266183be3365a88078be30356e29f471bb5e2",
+      "path": "xaero/minimap/Los Perrito/config.txt",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "b1b86d8f3b544000e9fcbedfe368f2ac444376f7",
+      "path": "shaderpacks/效果超好无泛光光影（建议搭配天空材质）.zip",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "18efbbf89be7893747872d969017e9c1c5a83b8b",
+      "path": "shaderpacks/效果超好光影（建议搭配天空材质）.zip",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "8619d067e7842c979171b79d1734c0fdcdff41e7",
+      "path": "saves/新的世界/xaeromap.txt",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "15c33923003b4cb35a70a54e367743d166b8a74d",
+      "path": "saves/新的世界/stats/adc546a1-89f1-45fe-a696-35a09fdce32d.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "dbab9d3a5c422e30ceed561632e1afbd204fdf7d",
+      "path": "saves/新的世界/stats/75f41576-c9ae-3be1-9e5a-f6091a7fa867.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "2686137311c038a99622242fdb662b88c221c08d",
+      "path": "saves/新的世界/session.lock",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "ce01199f7421593652588b3f62f55bdd84c5dd74",
+      "path": "saves/新的世界/serverconfig/readme.txt",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "ae30e90b5910e52c60c58a0946d5ae17625ca580",
+      "path": "saves/新的世界/serverconfig/openpartiesandclaims-wilderness-config.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "316a3e8a3c199dee7a025216983af085f3a5c97a",
+      "path": "saves/新的世界/serverconfig/openpartiesandclaims-server-claim-config.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "316a3e8a3c199dee7a025216983af085f3a5c97a",
+      "path": "saves/新的世界/serverconfig/openpartiesandclaims-expired-claim-config.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "316a3e8a3c199dee7a025216983af085f3a5c97a",
+      "path": "saves/新的世界/serverconfig/openpartiesandclaims-default-player-config.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/region/r.2.1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/region/r.2.0.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/region/r.2.-2.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/region/r.2.-1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/region/r.1.2.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "a4a6744793ae0a5c5b9e5f7269099149bc8f4525",
+      "path": "saves/新的世界/region/r.1.1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "a441fc18a0557e2632c1edb5ec63b4d8480eab87",
+      "path": "saves/新的世界/region/r.1.0.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/region/r.1.-2.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "1d9bd423de07e3ff396062a5730c54233b377ce9",
+      "path": "saves/新的世界/region/r.1.-1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/region/r.0.2.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "c993c9514fee06eadc41c680620914c2b7b3e779",
+      "path": "saves/新的世界/region/r.0.1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "9e39548c5b4998ba5b7ef9d2b9a6e1d02141e0bf",
+      "path": "saves/新的世界/region/r.0.0.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/region/r.0.-2.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "f7903dea1d21c8fef16c38849f8473e7a818eec3",
+      "path": "saves/新的世界/region/r.0.-1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/region/r.-2.2.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/region/r.-2.1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/region/r.-2.0.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/region/r.-2.-2.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/region/r.-2.-1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/region/r.-1.2.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "ee5f14009588c2521fa1af56c686f8384afe1522",
+      "path": "saves/新的世界/region/r.-1.1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "040a556baa556fed34100c39ae03816104a437e1",
+      "path": "saves/新的世界/region/r.-1.0.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/region/r.-1.-2.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "aaa6cebcc5b26688ae390085b9fcbbc14c8197d6",
+      "path": "saves/新的世界/region/r.-1.-1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/poi/r.1.1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/poi/r.1.0.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/poi/r.1.-1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/poi/r.0.1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "663780f3cc96e765f1c0fe30e9f3c244910333cf",
+      "path": "saves/新的世界/poi/r.0.0.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "ca57900dce608531c25c3604f30ed08ba43c0d50",
+      "path": "saves/新的世界/poi/r.0.-1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/poi/r.-1.1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/poi/r.-1.0.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/poi/r.-1.-1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "ab65aeabe45a9fe855e254d5e2178b8d90bfffb1",
+      "path": "saves/新的世界/playerdata/adc546a1-89f1-45fe-a696-35a09fdce32d.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "2e3410c87119d8cfbf90611a1b49bd29dbdccd96",
+      "path": "saves/新的世界/playerdata/75f41576-c9ae-3be1-9e5a-f6091a7fa867.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "2e3410c87119d8cfbf90611a1b49bd29dbdccd96",
+      "path": "saves/新的世界/playerdata/75f41576-c9ae-3be1-9e5a-f6091a7fa867.dat_old",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "de7bb15236591ba0ed19fd873828602b2dfabebe",
+      "path": "saves/新的世界/level.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "15626c1d912cea5a771396b88cd4810131ebd9e1",
+      "path": "saves/新的世界/icon.png",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "329256b012ddbc361059106c542150bf4edfe3e7",
+      "path": "saves/新的世界/entities/r.1.0.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "43ff842fd1a50ebfc0e80119557ea48640d49132",
+      "path": "saves/新的世界/entities/r.1.-1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "97acb07d86209c75e9cb512984ff34b16dec7833",
+      "path": "saves/新的世界/entities/r.0.1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "75720306c25569aa69179cab9c4c8e095b711664",
+      "path": "saves/新的世界/entities/r.0.0.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "c1acbb69b7e9e572915dd0fdcffb7a2607ebe817",
+      "path": "saves/新的世界/entities/r.0.-1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "saves/新的世界/entities/r.-1.1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "df22b352f27b8e3a90de6d648f859a678fb3784f",
+      "path": "saves/新的世界/entities/r.-1.0.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "c67410a23967a6427c2ac1bbd6c95608ee697e4f",
+      "path": "saves/新的世界/entities/r.-1.-1.mca",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "4bc0cf3eff4f6ae2509d2c9b52a30592b3d93a25",
+      "path": "saves/新的世界/data/world_border.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "610b77e7fd609bbbe42fe0d1b54ba3f84aeea53c",
+      "path": "saves/新的世界/data/waystones.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "550eb25efd538d8107cd85cdd726a2721ee041a0",
+      "path": "saves/新的世界/data/stopwatches.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "bc7ab61549c7057d0836f949ba69a3f36f25b7c2",
+      "path": "saves/新的世界/data/seasons.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "8f93908780856d0905bae63f968c9e69a4ede312",
+      "path": "saves/新的世界/data/scoreboard.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "a3e8f899c172f786ec383efb0d7ba940c319e54c",
+      "path": "saves/新的世界/data/random_sequences.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "aef36a0f533d1f5c1b5bfbb7c3b15b4007cb17d4",
+      "path": "saves/新的世界/data/raids.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "0cb615dddc69bd3f3d5fe4207dd7f247cf5f2c1e",
+      "path": "saves/新的世界/data/openpartiesandclaims/server-info.nbt",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "ca8f44bf197543b6537dfd111a20ec8e8b329070",
+      "path": "saves/新的世界/data/openpartiesandclaims/player-configs/adc546a1-89f1-45fe-a696-35a09fdce32d.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "643f0da93c45140522835669d3350160156ac462",
+      "path": "saves/新的世界/data/openpartiesandclaims/player-configs/75f41576-c9ae-3be1-9e5a-f6091a7fa867.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "e77b9262b6dac8602abb704e81d0749620e6d04d",
+      "path": "saves/新的世界/data/openpartiesandclaims/player-claims/adc546a1-89f1-45fe-a696-35a09fdce32d.nbt",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "9f8dcc8ad98a2f22220fb5da29467ba594e288de",
+      "path": "saves/新的世界/data/openpartiesandclaims/player-claims/00000000-0000-0000-0000-000000000001.nbt",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "72542d22f0642e0416307381f2a7624211206a9a",
+      "path": "saves/新的世界/data/openpartiesandclaims/player-claims/00000000-0000-0000-0000-000000000000.nbt",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "7f32d92f7674fbe23b165f3df6061c20f9b050e4",
+      "path": "saves/新的世界/data/openpartiesandclaims/player-claims/75f41576-c9ae-3be1-9e5a-f6091a7fa867.nbt",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "8f93908780856d0905bae63f968c9e69a4ede312",
+      "path": "saves/新的世界/data/chunks.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "d988bd8d7fe1ab5d3be20bf6d646c6c69a483a65",
+      "path": "saves/新的世界/advancements/adc546a1-89f1-45fe-a696-35a09fdce32d.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "789334cab1f5db1040e3c9182af1a8f162113496",
+      "path": "saves/新的世界/advancements/75f41576-c9ae-3be1-9e5a-f6091a7fa867.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "4bc0cf3eff4f6ae2509d2c9b52a30592b3d93a25",
+      "path": "saves/新的世界/DIM1/data/world_border.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "6d6f191cc7117bafcd81f11e6b2b44593aafd18c",
+      "path": "saves/新的世界/DIM1/data/seasons.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "aef36a0f533d1f5c1b5bfbb7c3b15b4007cb17d4",
+      "path": "saves/新的世界/DIM1/data/raids_end.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "8f93908780856d0905bae63f968c9e69a4ede312",
+      "path": "saves/新的世界/DIM1/data/chunks.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "4bc0cf3eff4f6ae2509d2c9b52a30592b3d93a25",
+      "path": "saves/新的世界/DIM-1/data/world_border.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "6d6f191cc7117bafcd81f11e6b2b44593aafd18c",
+      "path": "saves/新的世界/DIM-1/data/seasons.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "aef36a0f533d1f5c1b5bfbb7c3b15b4007cb17d4",
+      "path": "saves/新的世界/DIM-1/data/raids.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "8f93908780856d0905bae63f968c9e69a4ede312",
+      "path": "saves/新的世界/DIM-1/data/chunks.dat",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "146f8ab41777334b9e64360b7cf86fa2b3cab124",
+      "path": "saves/新的世界/level.dat_old",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "483049f9e82cfaedb51748124ea92237c9c28371",
+      "path": "resourcepacks/Dramatic Skys Demo 1.5.3.36.2.zip",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "3a1c166c7f62f10f1639075eb1960a151c4f8521",
+      "path": "options.txt",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "d23b3ba90cd265ff28f76680e4e2c74467118455",
+      "path": "mods/xaeroworldmap-fabric-1.21.11-1.40.6.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "8f50ecc54e802903f1744b49ed5f05f22bd71cb7",
+      "path": "mods/xaerominimap-fabric-1.21.11-25.3.5.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "81dc8632577ce638e7f373bfef4e195adf04eea9",
+      "path": "mods/waystones-fabric-1.21.11-21.11.4.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "5bb75e9a736076389ead01a0737e639358a6098f",
+      "path": "mods/veinminer-fabric-2.5.2.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "6a2565937909e40927907a70f36a0001d83bf9e4",
+      "path": "mods/trashcans-1.0.18-fabric-mc1.21.11.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "aa009320363af43b52322db7bf37c0d0ce503a2c",
+      "path": "mods/supermartijn642corelib-1.1.20-fabric-mc1.21.11.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "c0a8ac43af978f8d8245bf033670944eb90d7b2e",
+      "path": "mods/sodium-fabric-0.8.4+mc1.21.11.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "0d8e47ea2439c6d855f97e6d0f9c0b0c13516f10",
+      "path": "mods/skyboxify-2.3+1.21.11-fabric.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "49bf5e5a05dff1c072487e32082031bb02e47018",
+      "path": "mods/silk-all-1.11.5.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "dd5b78c86f6415eaef38b5b3f8c9cc056ecf2c6e",
+      "path": "mods/rrlsFabric-5.1.14+mc.1.21.11.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "bbdc920ecff993148cd6e81a208536132245ce40",
+      "path": "mods/placeholder-api-2.8.2+1.21.10.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "cc94ab148c02f945dff503673b0fc8c169630e9a",
+      "path": "mods/open-parties-and-claims-fabric-1.21.11-0.25.8.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "632c7565ba0fbc033aa4574e1ae6919f277fe03b",
+      "path": "mods/modmenu-17.0.0-beta.2.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "c1f8f61d4b2fac28ab083a927c6b1338598255ed",
+      "path": "mods/lithium-fabric-0.21.2+mc1.21.11.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "bf7764431b252d2de415cb5c017d9645873b008e",
+      "path": "mods/libIPN-fabric-1.21.11-6.6.2.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "f22487846158f62b3485a5a0723ba048326ac00f",
+      "path": "mods/lambdynamiclights-4.9.1+1.21.11.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "2cf743fa1bed56ccfb64fca60d3bd4fe856cb278",
+      "path": "mods/jei-1.21.11-fabric-27.4.0.15.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "8f56581bb74c845b702d07488cd9b8adffaae497",
+      "path": "mods/iris-fabric-1.10.5+mc1.21.11.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "532d18bbe3742e4504eab97d87fc90f056922176",
+      "path": "mods/held-item-info-1.9.0.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "c2e2f5e008f5bc9f401dfad8ca94909917006b65",
+      "path": "mods/ferritecore-8.2.0-fabric.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "05fe02fe61232c4ddea4059e8103281424d5a2bd",
+      "path": "mods/fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "24e3ebda918036771748ce6a965e5948e1fd4def",
+      "path": "mods/fabric-api-0.141.2+1.21.11.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "e2e88c0b2286148e9547eb23d95d2e30e60ad753",
+      "path": "mods/entityculling-fabric-1.9.5-mc1.21.11.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "78e8860706d5e98f5fe7b557e9ff92fc7232ef4a",
+      "path": "mods/e4mc-fabric-6.0.4.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "51d34c3f2035db0c7fca321b2d94f01b5167707c",
+      "path": "mods/continuity-3.0.1-beta.1+1.21.11.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "3329e2fd2864cd81c83cfd47acf140e6cc63f78c",
+      "path": "mods/comforts-fabric-14.0.0+1.21.11.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "4c224606a963bce223db5b27edb4959ecf40d4ee",
+      "path": "mods/cloth-config-21.11.153-fabric.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "af9caac1081738b5c682cd8cd72ee4644cce9607",
+      "path": "mods/balm-fabric-1.21.11-21.11.6.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "441fdbf4e9c34fb61517ceb8e15618950dc4d314",
+      "path": "mods/appleskin-fabric-mc1.21.11-3.0.8.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "9e8066fdaa041f8466e7e5eaf3fcf4b0653fa018",
+      "path": "mods/VisualWorkbench-v21.11.1-mc1.21.11-Fabric.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "e4bd1aee6bc8c56ae77647a06f31a3bd981962a6",
+      "path": "mods/TerraBlender-fabric-1.21.11-21.11.0.0.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "9b2114e9a5736f438195406010b81b66adebe80a",
+      "path": "mods/SereneSeasons-fabric-1.21.11-21.11.0.1.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "7c4c680c8de451c2e36e6a062364aac1d48c5d38",
+      "path": "mods/PuzzlesLib-v21.11.6-mc1.21.11-Fabric.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "4dba64f66f97cd06cbf43cbe7768ca67a68b528c",
+      "path": "mods/Jade-1.21.11-Fabric-21.1.1.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "7835dac2b68a976a339856146f934e76f3e0e4b4",
+      "path": "mods/InventoryProfilesNext-fabric-1.21.11-2.2.3.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "59242afca6f458ff0cb1882900869f01bba4e1bc",
+      "path": "mods/InvMove-0.9.3+1.21.11-Fabric.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "e0afeb38bd47a81e374240ca888ea7842b26edd8",
+      "path": "mods/GlitchCore-fabric-1.21.11-21.11.0.2.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "61aa1b5fafd75afc44552d0213cac39bc938bc2d",
+      "path": "mods/ForgeConfigAPIPort-v21.11.1-mc1.21.11-Fabric.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "626fde9e970030cfc8cb64cd0a1abfc03d37ecc2",
+      "path": "mods/Clumps-fabric-1.21.11-29.0.0.1.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "19c34a23a5c1b2f6c73117b8eb4524b521e1926b",
+      "path": "mods/Chunky-Fabric-1.4.55.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "b57fda920f172be312cfae7f6c71129636d0c8ab",
+      "path": "mods/BiomesOPlenty-fabric-1.21.11-21.11.0.24.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "0fcf01e24e36803872c025951ef4725abc9229dc",
+      "path": "mods/BetterThanMending-2.2.5.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "path": "config/xaeropatreon.txt",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "7235e01cb97f766d1411ce97cdf65329297093c2",
+      "path": "config/xaerohud.txt",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "8efdb5a6c4f4f41a36b531d54592321012491fb2",
+      "path": "config/xaero/world-map/server_profiles/default.cfg",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "740dfcd18520c804aac5545fd97d26c5f940e3e9",
+      "path": "config/xaero/world-map/profiles/default.cfg",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "c3c64f24c8d33940264147473e4a1c8ba5c219ff",
+      "path": "config/xaero/world-map/common.cfg",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "07a1a39efaab7034dd20757c3841bde1534057b4",
+      "path": "config/xaero/world-map/client.cfg",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "8efdb5a6c4f4f41a36b531d54592321012491fb2",
+      "path": "config/xaero/minimap/server_profiles/default.cfg",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "2b8d12369471b57bfa6426254b2170bc8e6b3b88",
+      "path": "config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "055dfaa7758f10ce5c3b40daa3705734c94354ef",
+      "path": "config/xaero/minimap/profiles/default.cfg",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "c247867b018103357eb4015059fe209cc562de51",
+      "path": "config/xaero/minimap/default_radar_categories_server.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "acf65351d79fa0764141fcd9d895c0006892fd5c",
+      "path": "config/xaero/minimap/default_radar_categories_client.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "de09f45b29b264432b80d34bb0c336bd552fb9ee",
+      "path": "config/xaero/minimap/common.cfg",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "a18a4a75d6f033c35ecde56c14306760715a3a19",
+      "path": "config/xaero/minimap/client.cfg",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "8efdb5a6c4f4f41a36b531d54592321012491fb2",
+      "path": "config/xaero/lib/server_profiles/default.cfg",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "253bac0f5181c8db8e488832c46a8d40018650cf",
+      "path": "config/xaero/lib/profiles/default.cfg",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "8ae8d6ea0330bec2c0db28b109a12443708f1e7b",
+      "path": "config/xaero/lib/common.cfg",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "45cccfb3eb8a7a784bd4c29539e5558445f90bcf",
+      "path": "config/xaero/lib/client.cfg",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "702e19f5956c3460cf16778cf30fb359c8ce19ee",
+      "path": "config/waystones-common.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "ebbc742bb76c36579818d1c3113e7ac816a4a736",
+      "path": "config/visualworkbench-server.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "776a46ddc214f0dc08f615eabccd99a2417de47a",
+      "path": "config/visualworkbench-client.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "1ecd2edb27bfbc69f24e0cd52d3a22f98bdce8f0",
+      "path": "config/trender.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "175ef27df07234a2e37dfbda9766f8c947122e12",
+      "path": "config/transition.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "784d8916886126533140aacc68efd71d01923cb1",
+      "path": "config/terrablender.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "b8bc792b4ef5b77b8a11e9b7f74737f1d58f5cf6",
+      "path": "config/splash.properties",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "f54951d102de5857aab33181bd3bcf3ddfcd6a61",
+      "path": "config/sodium-options.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "5455463ee999b945c1cff8ae90f2b705e19fb86c",
+      "path": "config/sodium-mixins.properties",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "5e453c71baab6c27c7f9ccda6921b16deb8b37a6",
+      "path": "config/sodium-fingerprint.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "361d049f91c4954bc2ea52878f22aae76ba45807",
+      "path": "config/skyboxify.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "a1ae679fd3c2e81532783efc91d7db9d4eabf596",
+      "path": "config/sereneseasons/seasons.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "f3ee7de8e844d79156511ca2551354c909167a31",
+      "path": "config/sereneseasons/fertility.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "52c69df9dfab577b687ec3617d97fa376293501c",
+      "path": "config/rrls.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "16403641e37754fb6dfa278f2268fef8e06da980",
+      "path": "config/openpartiesandclaims-server.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "0af3b96649a94688ebf988d63a95087f92427ba3",
+      "path": "config/modmenu.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "38f2993a7d80d0a6a25eb6182bd6898af24a16eb",
+      "path": "config/lithium.properties",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "f1802304ca2baab1cf4018c25267c203846fe7c2",
+      "path": "config/lambdynlights.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "b27008f26329505ca08ae6d3177f567efc18fbe1",
+      "path": "config/jei/recipe-category-sort-order.ini",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "0d5bfb6873e299df51a67f3273193c2b90bec94b",
+      "path": "config/jei/jei-mod-id-format.ini",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "2b87f9bc027087e8b113e4a18ee1ef7c01edc172",
+      "path": "config/jei/jei-debug.ini",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "955946dddc658939d34f127ca9238b116cb7150a",
+      "path": "config/jei/jei-colors.ini",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "7a574ada3c7ec296e4e63c8cbd86c67f03d37a4d",
+      "path": "config/jei/jei-client.ini",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "a2d1f22ee9a3aa27f3d25bb93c4c5d5cd5580e21",
+      "path": "config/jei/ingredient-list-type-sort-order.ini",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "b1e45f834315fe161d69950f88f91f207007c23a",
+      "path": "config/jei/ingredient-list-mod-sort-order.ini",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "a8a4458dce77bc89e82e71719ad2cc14b2739d39",
+      "path": "config/jei/blacklist.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "9f04874b31750cc34e731c7be044ec2b4a08b8d4",
+      "path": "config/jade/sort-order.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f",
+      "path": "config/jade/server-plugin-overrides.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "1e387106a8b2540d4839c6287d02a2dc70a502c6",
+      "path": "config/jade/profiles/3/jade.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "06511b21299f15b064663e2eb76ced9f52b3b025",
+      "path": "config/jade/profiles/2/jade.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "cee061a55ab63b8bc36d1f544f6ea1448d15035f",
+      "path": "config/jade/profiles/1/jade.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "cb87b67cbc42c1d98d075ef0ec5058365fb5fb69",
+      "path": "config/jade/jade.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "f0a65b39f82c7967d4838acb08cf602a4a5a5bcb",
+      "path": "config/jade/hide-mob-effects.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "1cce4a181dc701753ae14d8281e7cb49d802bdbe",
+      "path": "config/jade/hide-entities.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "83c156dc15cc1416fa69be79fbb69fbf12c0598b",
+      "path": "config/jade/hide-blocks.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "05b4e0db0048b28ec08681a44e40e35672cc03e8",
+      "path": "config/iris.properties",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "20bd3420b5c911402ac289c154b56ac1dd8f84ba",
+      "path": "config/iris-excluded.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "7e61582390a414c78c7c8183e006179f0c833b3d",
+      "path": "config/invmove/vanilla.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "24eaec776a00fe8ab613f9948718b4acab8e93e2",
+      "path": "config/invmove/unrecognized.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "ee06b8de0645f2b1279014cdb25609ed91d23305",
+      "path": "config/invmove.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "e2593acfcb9d84fa2c050b145242d28cc28fb25f",
+      "path": "config/inventoryprofilesnext/新的世界/villager-trading-config-v2.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "58b81b870399a90daad1a3249c68c2d5bd18abf9",
+      "path": "config/inventoryprofilesnext/inventoryprofiles.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "2bedb4d58a778b937dd9da01c50a46af9887709b",
+      "path": "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "e2593acfcb9d84fa2c050b145242d28cc28fb25f",
+      "path": "config/inventoryprofilesnext/Los Perrito/villager-trading-config-v2.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "bff7500b7facd387c1c42c251535f678a9729882",
+      "path": "config/held-item-info.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "aeeeb4ef9c9f80c40defb65c521ec87f8e36e5a7",
+      "path": "config/forgeconfigapiport.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "8389a7b16cdfb677fb40db8d11b4ab1a1a0cb182",
+      "path": "config/ferritecore.mixin.properties",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "665eaae8d89b3c74d9c1e0db68cb48dbacb10d3e",
+      "path": "config/fabric/indigo-renderer.properties",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "d61877c33f48dfceaf2991fe8987bd7c946e4345",
+      "path": "config/entityculling.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "8fdcc86ad8ddd66e4020108a83eccdba26137a3b",
+      "path": "config/e4mc/e4mc.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "a4a92925d39f3fea97ba0934563219c98d622c7f",
+      "path": "config/continuity.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "ef4545c14de17a9d3abedf1c6432fbc7de04373b",
+      "path": "config/comforts-server.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "a29e58f68685f01f8c6d98e436f13fe0e7c492df",
+      "path": "config/comforts-common.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "a8157f2e1e649b891aaccb8ec83d38c84429c82a",
+      "path": "config/chunky/config.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "0034d877ec2ea3155efaf54db8549db1e094f003",
+      "path": "config/cardinal-components-api.properties",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "54282a3fc25c25a7bc348d7e519edf5a57f30ac2",
+      "path": "config/biomesoplenty/generation.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "0570a08b5e0dbacad2a35adf347eeb8a887a38c4",
+      "path": "config/biomesoplenty/gameplay.toml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "d77e0a69d856bb7796daac849294533f04f66bb9",
+      "path": "config/biomesoplenty/biome_toggles.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "a838f54303b91a5b03b748d31ef15d5b7169284a",
+      "path": "config/appleskin.json5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "5bb75e9a736076389ead01a0737e639358a6098f",
+      "path": "config/Veinminer/update/veinminer-fabric-2.5.2.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "8327ab3e50590652cfe23ce516f74b9b32783526",
+      "path": "config/Veinminer/update/veinminer-client-2.5.2.jar",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "2d98123d529bbc6582df3b2d57c505062a30ff45",
+      "path": "config/Veinminer/settings.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "816476dcea88c4013e280bc7d7fbdd8fa52e95ca",
+      "path": "config/Veinminer/groups.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "97d170e1550eee4afc0af065b78cda302a97674c",
+      "path": "config/Veinminer/blocks.json",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "c4085e60f419589907af1c5f6bfd5c7673eb7321",
+      "path": "fclversion.cfg",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "d47d254675d1aee18670aece5ed768e1e631517b",
+      "path": "log4j2.xml",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "327266183be3365a88078be30356e29f471bb5e2",
+      "path": "XaeroWaypoints_BACKUP240807/新的世界/config.txt",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "hash": "327266183be3365a88078be30356e29f471bb5e2",
+      "path": "XaeroWaypoints_BACKUP240807/Los Perrito/config.txt",
       "force": true,
       "type": "addon"
     }
   ],
+  "forceUpdate": false,
+  "launchInfo": {
+    "javaArgument": [],
+    "launchArgument": [],
+    "minMemory": 4096
+  },
+  "libraries": [],
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 2,
+  "name": "Echoes-of-Infinity-Orign",
+  "origin": [],
   "settings": {
     "install_mods": true,
     "install_resourcepack": true
   },
-  "launchInfo": {
-    "minMemory": 4096,
-    "launchArgument": [],
-    "javaArgument": []
-  }
+  "url": "",
+  "version": "26.0.1"
 }
