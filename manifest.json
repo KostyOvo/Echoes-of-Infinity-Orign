@@ -1,10 +1,8 @@
 {
+  "author": "Radiant Rain",
+  "files": [],
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Echoes of Infinity ： Orign",
-  "version": "1.0rc",
-  "author": "北辰or微生雨璨",
-  "overrides": "overrides",
   "minecraft": {
     "version": "1.21.11",
     "modLoaders": [
@@ -14,5 +12,7 @@
       }
     ]
   },
-  "files": []
+  "name": "Echoes-of-Infinity-Orign",
+  "overrides": "overrides",
+  "version": "26.0.1"
 }
